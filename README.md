@@ -1,3 +1,5 @@
+# Atividade em Dupla realizada por: João Gabriel Rodrigues Barz/ Guilherme Henrique Marques Bastos -- Informática 6B
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
