@@ -1,4 +1,3 @@
-src/exercicios/Exercicio5/App.jsx
 import { useEffect, useState } from 'react';
 import ListaUsuarios from './ListaUsuarios';
 

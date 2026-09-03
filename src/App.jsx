@@ -1,9 +1,10 @@
 import { useState } from 'react';
-import Exercicio1 from './exercicios/Exercicio1';
-import Exercicio2 from './exercicios/Exercicio2';
-import Exercicio3 from './exercicios/Exercicio3';
-import Exercicio4 from './exercicios/Exercicio4';
-import Exercicio5App from './exercicios/Exercicio5/App';
+import Exercicio1 from './Exercicio1';
+import Exercicio2 from './Exercicio2';
+import Exercicio3 from './Exercicio3';
+import Exercicio4 from './Exercicio4';
+import Exercicio5App from './Exercicio5/App';
+import Exercicio1ptac from './ptac/Exercicio1';
 
 const exercicios = {
   1: Exercicio1,
@@ -11,6 +12,7 @@ const exercicios = {
   3: Exercicio3,
   4: Exercicio4,
   5: Exercicio5App,
+  'PTAC-1': Exercicio1ptac,
 };
 
 function App() {
@@ -23,7 +25,7 @@ function App() {
         {Object.keys(exercicios).map((numero) => (
           <button
             key={numero}
-            onClick={() => setAtual(Number(numero))}
+            onClick={() => setAtual(numero)}
             style={{ marginRight: '0.5rem' }}
           >
             Exercício {numero}
